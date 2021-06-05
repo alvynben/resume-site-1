@@ -1,0 +1,65 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 200px; /* Full width */
+  height: 20px;
+  background-color: #aaa; /* Grey background */
+  margin: 20px;
+  box-shadow: 5px 5px #000;
+}
+
+p {
+    color: #fff;
+    font-family: monospace;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    text-align: left; /* Right-align text */
+    color: white; /* White text color */
+    height: 20px;
+    font-family: monospace;
+    padding-left: 10px;
+    background-color: #2a363b;
+    
+}
+
+#skill-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.SkillsHeading {
+    display: flex;
+    background: #2a363b;
+    width: 10em;
+    height: 2em;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: monospace;
+    margin: 50px 0 0 0;
+    box-shadow: 5px 5px #000;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff874c;
+    
+}
+
+.python {width: 90%; } 
+.cplus {width: 70%; }
+.html {width: 50%; } 
+.css {width: 50%; } 
+.js {width: 50%; } 

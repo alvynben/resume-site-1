@@ -1,0 +1,50 @@
+.AboutMe {
+    display: flex;
+    background: #fecea8;
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.AboutMeImage {
+    object-fit: cover;
+    min-width: 500px;
+
+}
+
+.AboutMeInfo {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: monospace;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutMeHeading {
+    display: flex;
+    background: #2a363b;
+    width: 10em;
+    height: 2em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px #000;
+
+}
+
+.AboutMeSubheading {
+    text-align: justify;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #2a363b;
+    padding: 1em;
+    box-shadow: 5px 5px #000;
+    min-height: 400px;
+    min-width: 400px;
+    max-width: 500px;
+
+}

@@ -1,0 +1,24 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #99b898;
+    color: #ffffff;
+    font-family: monospace;
+}
+
+.titleHeading {
+    background: #2a363b;
+    width: 10em;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 5px 5px #000;
+}
+
+.titleSubheading {
+    background: #2a363b;
+    width: 30em;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 5px 5px #000;
+}
